@@ -4,6 +4,7 @@ on:
         branches: [main]
     pull_request:
         branches: [main]
+    workflow_dispatch: # eslint-disable-line yml/no-empty-mapping-value
 
 permissions:
     contents: read
